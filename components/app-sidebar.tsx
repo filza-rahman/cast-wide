@@ -49,20 +49,28 @@ export function AppSidebar() {
         })}
       </nav>
 
-      <div className="flex items-center gap-3 border-t border-sidebar-border px-4 py-4">
-        <Avatar className="h-9 w-9">
-          <AvatarFallback className="bg-primary/15 text-primary text-xs font-semibold">
-            AV
-          </AvatarFallback>
-        </Avatar>
-        <div className="min-w-0">
-          <p className="truncate text-sm font-medium text-sidebar-foreground">
-            Ava Reyes
-          </p>
-          <p className="truncate text-xs text-muted-foreground">
-            ava@viralloop.app
-          </p>
+      <div className="border-t border-sidebar-border px-4 py-4">
+        <div className="flex items-center gap-3">
+          <Avatar className="h-9 w-9">
+            <AvatarFallback className="bg-primary/15 text-primary text-xs font-semibold">
+              VL
+            </AvatarFallback>
+          </Avatar>
+          <div className="min-w-0 flex-1">
+            <p className="truncate text-sm font-medium text-sidebar-foreground">
+              Demo User
+            </p>
+            <p className="truncate text-xs text-muted-foreground">
+              judge@viralloop.app
+            </p>
+          </div>
         </div>
+        <button
+          onClick={() => { localStorage.removeItem("vl-auth"); window.location.href = "/" }}
+          className="mt-3 w-full rounded-lg border border-sidebar-border px-3 py-2 text-xs font-medium text-muted-foreground transition-colors hover:border-red-500/30 hover:bg-red-500/5 hover:text-red-400"
+        >
+          Sign out
+        </button>
       </div>
     </aside>
   )
