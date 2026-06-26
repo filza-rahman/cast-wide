@@ -14,6 +14,8 @@ import { useGenerations, deleteGeneration } from "@/lib/history-store"
 import { getPlatform, PLATFORMS, type PlatformId } from "@/lib/platforms"
 import { cn } from "@/lib/utils"
 
+export const dynamic = "force-dynamic"
+
 type RangeFilter = "all" | "7d" | "30d"
 
 function topScore(results: { score: number }[]) {

@@ -1,18 +1,22 @@
 "use client"
-import { useEffect } from "react"
+import { useEffect, useState } from "react"
 import { useRouter } from "next/navigation"
 import { AppSidebar } from "@/components/app-sidebar"
 import { MobileNav } from "@/components/mobile-nav"
 
 export default function AppLayout({ children }: { children: React.ReactNode }) {
   const router = useRouter()
+  const [checked, setChecked] = useState(false)
 
   useEffect(() => {
-    if (typeof window !== "undefined" && !localStorage.getItem("vl-auth")) {
+    if (!localStorage.getItem("vl-auth")) {
       router.replace("/login")
+    } else {
+      setChecked(true)
     }
   }, [router])
 
+if (!checked) return <div className="min-h-screen bg-[#080808]" />
   return (
     <div className="flex min-h-screen bg-background">
       <div className="sticky top-0 hidden h-screen w-64 shrink-0 border-r border-sidebar-border md:block">
