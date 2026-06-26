@@ -1,6 +1,7 @@
 import Groq from "groq-sdk"
 import { z } from "zod"
 import type { PlatformId, PlatformResult } from "@/lib/platforms"
+import { addGeneration } from "@/lib/history-store"
 
 export const maxDuration = 60
 
