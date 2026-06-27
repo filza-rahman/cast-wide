@@ -20,7 +20,7 @@ export function MobileNav() {
         <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-primary text-primary-foreground">
           <Zap className="h-4 w-4" />
         </span>
-        <span className="text-sm font-semibold tracking-tight">ViralLoop</span>
+        <span className="text-sm font-semibold tracking-tight">Cast Wide</span>
       </Link>
       <nav className="flex items-center gap-1">
         {NAV.map((item) => {

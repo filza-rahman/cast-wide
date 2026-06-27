@@ -24,7 +24,7 @@ export function AppSidebar() {
         <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-primary-foreground">
           <Zap className="h-4 w-4" />
         </span>
-        <span className="text-base font-semibold tracking-tight">ViralLoop</span>
+        <span className="text-base font-semibold tracking-tight">Cast Wide</span>
       </Link>
 
       <nav className="flex flex-1 flex-col gap-1 px-3 py-2">
@@ -61,7 +61,7 @@ export function AppSidebar() {
               Demo User
             </p>
             <p className="truncate text-xs text-muted-foreground">
-              judge@viralloop.app
+              judge@castwide.app
             </p>
           </div>
         </div>

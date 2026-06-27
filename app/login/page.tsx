@@ -95,7 +95,7 @@ function FloatingCard({ card }: { card: typeof FLOATING_CARDS[0] }) {
 
 export default function LoginPage() {
   const router = useRouter()
-  const [email, setEmail] = useState("judge@viralloop.app")
+  const [email, setEmail] = useState("judge@castwide.app")
   const [password, setPassword] = useState("demo2026")
   const [error, setError] = useState("")
   const [loading, setLoading] = useState(false)
@@ -187,7 +187,7 @@ export default function LoginPage() {
                 <path d="M13 10V3L4 14h7v7l9-11h-7z" />
               </svg>
             </span>
-            <span className="text-base font-semibold tracking-tight text-white">ViralLoop</span>
+            <span className="text-base font-semibold tracking-tight text-white">Cast Wide</span>
           </Link>
           <Link href="/" className="text-xs text-white/30 hover:text-white/60 transition-colors">
             ← Back to home
@@ -206,7 +206,7 @@ export default function LoginPage() {
           >
             <div className="mb-8 text-center">
               <h1 className="text-3xl font-bold tracking-tight text-white">Welcome back</h1>
-              <p className="mt-2 text-sm text-white/40">Sign in to your ViralLoop account</p>
+              <p className="mt-2 text-sm text-white/40">Sign in to your Cast Wide account</p>
             </div>
 
             {/* Demo hint */}

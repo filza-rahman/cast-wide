@@ -12,7 +12,7 @@ export async function DELETE(req: Request) {
     )
     return Response.json({ success: true })
   } catch (err) {
-    console.error("[viralloop] delete error:", err)
+    console.error("[cast-wide] delete error:", err)
     return Response.json({ error: String(err) }, { status: 500 })
   }
 }

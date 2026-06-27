@@ -11,7 +11,7 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'ViralLoop — Turn ideas into content that spreads',
+  title: 'Cast Wide — Turn ideas into content that spreads',
   description:
     'AI rewrites your raw idea natively for Twitter, LinkedIn, and Reddit, complete with virality scores.',
   generator: 'v0.app',

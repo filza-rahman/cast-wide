@@ -1,9 +1,9 @@
-# ViralLoop
+# Cast Wide
 
-ViralLoop turns a raw idea into platform-native social content in seconds. You paste a thought, and the app rewrites it for Twitter, LinkedIn, and Reddit simultaneously, each in the tone and format that actually works on that platform. Every output comes with a virality score (0-100) and a short explanation of why it will or won't spread.
+Cast Wide turns a raw idea into platform-native social content in seconds. You paste a thought, and the app rewrites it for Twitter, LinkedIn, and Reddit simultaneously, each in the tone and format that actually works on that platform. Every output comes with a virality score (0-100) and a short explanation of why it will or won't spread.
 
-Live demo: https://viralloop-nine.vercel.app  
-Demo credentials: `judge@viralloop.app` / `demo2026`
+Live demo: https://cast-wide.vercel.app  
+Demo credentials: `judge@castwide.app` / `demo2026`
 
 ---
 
@@ -11,7 +11,7 @@ Demo credentials: `judge@viralloop.app` / `demo2026`
 
 Most people have ideas worth sharing but no idea how to make them land on social media. A LinkedIn post written like a tweet gets ignored. A Reddit post that sounds like a press release gets downvoted. Platform-native writing is a skill that takes years to develop, and generic AI tools just rewrite your idea in slightly better English without understanding the platform at all.
 
-ViralLoop fixes this by generating content that is genuinely tuned to each platform's culture, format, and engagement patterns.
+Cast Wide fixes this by generating content that is genuinely tuned to each platform's culture, format, and engagement patterns.
 
 ---
 
@@ -80,8 +80,8 @@ The partition key and sort key design allows efficient querying of all generatio
 
 1. Clone the repo
 ```bash
-git clone https://github.com/filza-rahman/viralloop.git
-cd viralloop
+git clone https://github.com/filza-rahman/cast-wide.git
+cd cast-wide
 ```
 
 2. Install dependencies

@@ -65,7 +65,7 @@ export async function POST(req: Request) {
             {
               role: "system",
               content:
-                "You are ViralLoop, an expert social media ghostwriter who rewrites raw ideas into platform-native posts that spread. Always respond with valid JSON only, no markdown, no explanation outside the JSON.",
+                "You are Cast Wide, an expert social media ghostwriter who rewrites raw ideas into platform-native posts that spread. Always respond with valid JSON only, no markdown, no explanation outside the JSON.",
             },
             {
               role: "user",
@@ -126,7 +126,7 @@ Respond with ONLY this JSON (no markdown, no backticks):
 
     return Response.json({ results })
   } catch (err) {  
-    console.error("[viralloop] generate error:", err)
+    console.error("[cast-wide] generate error:", err)
     return Response.json(
       { error: "Failed to generate content. Please try again." },
       { status: 500 }

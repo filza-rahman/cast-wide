@@ -47,7 +47,7 @@ function Section({
 
 export default function SettingsPage() {
   const [name, setName] = useState("Demo User")
-  const [email, setEmail] = useState("judge@viralloop.app")
+  const [email, setEmail] = useState("judge@castwide.app")
   const [defaults, setDefaults] = useState<PlatformId[]>(["twitter", "linkedin", "reddit"])
   const [defaultTone, setDefaultTone] = useState("default")
 

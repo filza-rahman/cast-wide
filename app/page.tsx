@@ -9,7 +9,7 @@ const features = [
   {
     number: '01',
     title: 'One idea in.',
-    body: 'Drop a single thought, a rough note, or a half-finished sentence. ViralLoop reads the intent and the angle, not just the words.',
+    body: 'Drop a single thought, a rough note, or a half-finished sentence. Cast Wide reads the intent and the angle, not just the words.',
   },
   {
     number: '02',
@@ -170,7 +170,7 @@ export default function Page() {
                   <path d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
               </span>
-              <span className="font-semibold tracking-tight text-white">ViralLoop</span>
+              <span className="font-semibold tracking-tight text-white">Cast Wide</span>
               <span className="h-3 w-px bg-white/20" />
               <span className="font-mono text-xs uppercase tracking-[0.25em] text-white/35">AI Content Engine</span>
             </div>
@@ -182,7 +182,7 @@ export default function Page() {
               >Everywhere.</span>
             </h1>
             <p className="animate-fade-up ml-1 mt-10 max-w-[380px] text-sm leading-relaxed text-white/45 [animation-delay:0.45s]">
-              ViralLoop turns a single thought into platform-fluent posts built to travel. Write once — show up natively across every feed that matters.
+              Cast Wide turns a single thought into platform-fluent posts built to travel. Write once — show up natively across every feed that matters.
             </p>
             <div className="animate-fade-up mt-12 [animation-delay:0.6s]">
               <Link href="/login" className="group relative inline-flex items-center justify-center overflow-hidden rounded-full p-[2px]">
@@ -314,7 +314,7 @@ export default function Page() {
 
         {/* Footer */}
         <footer className="flex flex-col items-start justify-between gap-2 border-t border-white/10 px-6 py-8 font-mono text-xs uppercase tracking-widest text-white/35 md:flex-row md:items-center md:px-12">
-          <span>ViralLoop © {new Date().getFullYear()}</span>
+          <span>Cast Wide © {new Date().getFullYear()}</span>
           <span>Your idea. Everywhere.</span>
         </footer>
       </div>
